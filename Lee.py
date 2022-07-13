@@ -1,4 +1,4 @@
-import os, sys, time, re, json, requests, bs4, random, calendar, datetime,subprocess, logging
+#import os, sys, time, re, json, requests, bs4, random, calendar, datetime,subprocess, logging
 
 from concurrent.futures import ThreadPoolExecutor as khamdihiXD
 
@@ -186,15 +186,6 @@ class login:
 
 	def takon(self):
 
-		takon = input('\n %s[%s!%s] Mau tau cara ambil token y/t: '%(N,O,N))
-
-		if takon in ['y','Y','iya']:
-
-			jalan('\n %s[%s!%s] Kamu akan di arahkan ke Ke Wa Untuk Donasi'%(N,O,N))
-
-			os.system('xdg-open wa.me/6281221523195');exit()
-
-		else:
 
 			login().__login__()
 
